@@ -149,7 +149,7 @@ services:
       - huly_net
 
   front:
-    image: hardcoreeng/front:v0.8.0
+    image: hardcoreeng/front:latest
     environment:
       - SERVER_PORT=8080
       - SERVER_SECRET=huly_secret_key
